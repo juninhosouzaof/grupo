@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/tecno.jpg");
+    background-size: cover;
+}
+
+/*TOPO DAS PÁGINAS*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00F084;
+}
+
+.logotipo {
+    font-size: 40px;
+    color: #00703D;
+}
+
+.logotipo:hover {
+    color: white;
+}
+
+nav {
+    
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: #00703D;
+    color: #00F084;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+a:hover {
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #00703D;
+    background-color: white;
+    border-radius: 8px;
+    color: #00703D;
+    transition: 0.4s;
+}
+
+/*CORPO DO SITE*/
+.slogan {
+    text-align: center;
+    margin: 24px 0 24px 0;
+    color: white;
+    backdrop-filter: blur(3px);
+}
+
+span {
+    color: gold;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
+    justify-content: baseline;
+    margin: 8px 180px 8px 180px;
+    color: white;
+    backdrop-filter: blur(3px);
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    background-color: #00703D;
+    color: #00F084;
+}
+
+@media (max-width: 700px) {
+
+}
